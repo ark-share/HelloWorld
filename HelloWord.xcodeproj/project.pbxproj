@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		A32C11531D336D820024FD37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32C11521D336D820024FD37 /* AppDelegate.swift */; };
 		A32C11551D336D820024FD37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32C11541D336D820024FD37 /* ViewController.swift */; };
-		A32C11581D336D820024FD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32C11561D336D820024FD37 /* Main.storyboard */; };
 		A32C115A1D336D820024FD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32C11591D336D820024FD37 /* Assets.xcassets */; };
 		A32C115D1D336D820024FD37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32C115B1D336D820024FD37 /* LaunchScreen.storyboard */; };
+		A32C11661D3378F00024FD37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32C11561D336D820024FD37 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,9 +122,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A32C11661D3378F00024FD37 /* Main.storyboard in Resources */,
 				A32C115D1D336D820024FD37 /* LaunchScreen.storyboard in Resources */,
 				A32C115A1D336D820024FD37 /* Assets.xcassets in Resources */,
-				A32C11581D336D820024FD37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +286,7 @@
 				A32C11631D336D820024FD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
